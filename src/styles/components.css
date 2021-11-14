@@ -1,0 +1,62 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-between;
+    background-color: var(--gray);
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0;
+    height: 40vh;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.card-header {
+    width: 100%;
+    padding: 1rem;
+}
+
+.card-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 999px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-body {
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: var(--red-bright);
+    padding: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px var(--red-dull);
+}
+
+.card-name {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+}
+
+.button {
+    padding: 1rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: "Source Sans Pro", sans-serif;
+    outline: none;
+    border: none;
+    font-weight: bolder;
+    width: 40%;
+}
+
+.button-shortlist {
+    background-color: var(--green);
+}
+
+.button-reject {
+    background-color: var(--red-bright);
+}
